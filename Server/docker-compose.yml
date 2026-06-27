@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  c2-server:
+    build: .
+    container_name: c2_server
+    ports:
+      - "4444:4444"   # agentes (TLS)
+      - "8000:8000"   # API operador
+    restart: always

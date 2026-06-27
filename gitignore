@@ -1,0 +1,39 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Certificados TLS (no subir claves privadas a producción)
+# se comenta esta líneas porque seran incluidas para el hackathon
+# server.crt
+# server.key
+
+# Node / React (Operador)
+node_modules/
+.next/
+dist/
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
